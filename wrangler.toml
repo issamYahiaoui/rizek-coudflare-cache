@@ -1,0 +1,8 @@
+name = "cloudflare-cache"
+type = "javascript"
+
+account_id = "9c01bc00598a56693581958bfc6ca4f4"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-04-05"
