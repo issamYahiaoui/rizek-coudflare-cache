@@ -1,15 +1,24 @@
-# 👷 `worker-template` Hello World
+# 👷 Rizek App home screen cloudflare serveless cache worker
 
-A template for kick-starting a Cloudflare worker project.
+### Setup
+- Install wrangler command line
+    ```
+    yarn global add @cloudflare/wrangler
+    ```
+- Login to cloudflare account:
+  ```
+  wrangler login
+  ```
+- Run the worker locally:
+  ```
+  wrangler dev
+  ```
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
 
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
+### Deploy the worker
+  
+  ```
+  wrangler publish
+  ```
 
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
